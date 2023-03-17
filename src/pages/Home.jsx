@@ -7,10 +7,10 @@ const Home = () => {
         Welcome to the <span className="font-bold">Home Page</span> of the Movie Service
       </h1>
       <br />
-      <div className="flex mt-10">
-        <div className="w-[200px] h-[200px] bg-sky-200 mx-auto rotate-90 rounded-tl-full rounded-br-full "></div>
-        <div className="w-[200px] h-[200px] bg-sky-400 mx-auto rotate-90 rounded-tl-full rounded-br-full "></div>
-        <div className="w-[200px] h-[200px] bg-sky-600 mx-auto rotate-90 rounded-tl-full rounded-br-full "></div>
+      <div className="flex w-[450] justify-center mt-20">
+        <div className="w-[150px] h-[50px] bg-sky-200 mx-auto rotate-45 rounded-tl-full rounded-br-full "></div>
+        <div className="w-[150px] h-[50px] bg-sky-400 mx-auto rotate-45 rounded-tl-full rounded-br-full "></div>
+        <div className="w-[150px] h-[50px] bg-sky-600 mx-auto rotate-45 rounded-tl-full rounded-br-full "></div>
       </div>
     </>
   );
